@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(void)
+{
+	float weight;
+	float dosage;
+	printf("enter patients weight:");
+	scanf("%f",&weight);
+	dosage=weight*0.8;
+	printf("the dosage(mg)for patient is:%f",dosage);
+}
