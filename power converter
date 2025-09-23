@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main(void)
+{
+	float watts;
+	float kilowatts;
+	printf("%f",&watts);
+	kilowatts+watts/1000;
+	printf("the power in kilowatts is=%f",kilowatts);
+}
